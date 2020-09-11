@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/*웹뷰*/
+.panel,.mCon03Menu04,.mMainCon04{
+	display:none;
+}
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+	/*리셋*/
+	body{
+		min-width:auto;
+	}
+	.inner{
+		width:auto;
+	}
+	
+	/*안보임처리*/
+	.gnb,.util,.mainCon02,.con03Menu04,.mainCon03>div:hover p,.mainCon04,.con05Txt p,.fInfo,.fLogo{
+		display:none;
+	}
+	
+	/*보임처리*/
+	.mCon03Menu04,.mMainCon04{
+		display:block;
+	}
+	.panel{
+		display:block;
+		width:16px;
+		height:15px;
+		background:url(../images/sp_com.png) no-repeat -227px -98px;
+		background-size:400px;
+		position:absolute;
+		top:6px;
+		right:0;
+		text-indent:-9999px;
+	}
+	.panel a{
+		display:block;
+		height:100%;
+	}
+	
+	/*헤더*/
+	#header{
+		height:auto;
+		margin:10px 20px;
+	}
+	#header h1{
+		width:70px;
+		height:28px;
+		background-size:400px;
+		background-position:0 0;
+		position:static;
+	}
+	
+	/*메인슬라이더*/
+	.mainSlider{
+		padding:40% 0;
+		margin:0;
+		height:auto;
+		background-size:cover;
+	}
+	.sliderText{
+		padding-top:0;
+		font-size:11px;
+	}
+	.sliderText h2{
+		font-size:14px;
+	}
+	.sliderBtn{
+		width:13px;
+		height:23px;
+		background-size:400px;
+		background-position:-64px -30px;
+	}
+	.prevBtn{
+		left:10px;
+	}
+	.nextBtn{
+		background-position:-79px -30px;
+		right:10px;
+	}
+	
+	/*메인컨텐츠1*/
+	.mainCon01{
+		padding:20px 0;
+	}
+	.mainCon01 ul{
+		display:block;
+	}
+	.mainCon01 li{
+		width:33.33%;
+		margin:10px 0px;
+	}
+	.mainCon01 li span{
+		width:33px;
+		height:28px;
+		background-size:400px;
+		margin:0 auto;
+		margin-bottom:5px;
+	}
+	.con01Icon01{
+		background-position:-1px -57px;
+	}
+	.con01Icon02{
+		background-position:-37px -57px;
+	}
+	.con01Icon03{
+		background-position:-74px -57px;
+	}
+	.con01Icon04{
+		background-position:-109px -57px;
+	}
+	.con01Icon05{
+		background-position:-145px -57px;
+	}
+	.con01Icon06{
+		background-position:-181px -57px;
+	}
+	.mainCon01 li:hover span{
+		background-position-y:-57px;
+	}
+	.mainCon01 li:hover p{
+		color:#333;
+	}
+	
+	/*메인컨텐츠3*/
+	.mainCon03{
+		padding:0 10px;
+	}
+	.mainCon03>div{
+		width:calc(50% - 5px);
+		height:auto;
+		margin-right:0;
+		margin-right:10px;
+		margin-bottom:10px;
+	}
+	.mainCon03 .con03Menu02{
+		margin-right:0;
+	}
+	
+	.mainCon03>div h3,.mainCon03 .con03Menu04 h3{
+		padding:45% 0;
+		font-size:15px;
+	}
+	
+	/*모바일메인컨텐츠4*/
+	
+	.mMainCon04{
+		padding:0 10px;
+	}
+	.mMainCon04 li{
+		background:#f2f0ed;
+		height:45px;
+		line-height:45px;
+		margin-bottom:10px;
+		font-size:13px;
+	}
+	.mMainCon04 li h4{
+		width:15%;
+		display:inline-block;
+		color:#2d5b79;
+		text-align:center;
+		vertical-align:top;
+	}
+	.mMainCon04 li a{
+		width:70%;
+		display:inline-block;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		padding-left:5%;
+		vertical-align:top;
+	}
+	/*메인컨텐츠5*/
+	.mainCon05{
+		margin-top:0;
+		padding:20px 10px;
+		padding-bottom:10px;
+	}
+	.con05Menu{}
+	.con05Menu li{
+		width:calc(50% - 5px);
+		margin-right:10px;
+		margin-bottom:10px;
+	}
+	.con05Menu li:nth-child(2){
+		margin-right:0;
+	}
+	.con05Menu li h2{
+		font-size:15px;
+	}
+	/*푸터*/
+	.fTop{
+		height:auto;
+		line-height:30px;
+		text-align:center;
+	}
+	.fMenu{
+		width:230px;
+		float:none;
+		margin:0 auto;
+	}
+	.fMenu li{
+		float:none;
+		display:inline-block;
+	}
+	.fMenu li:nth-child(3)::after{
+		display:none;
+	}
+	.csFamily{
+		width:auto;
+		line-height:40px;
+		font-size:13px;
+		float:none;
+		display:inline-block;
+		margin-top:10px;
+		
+	}
+	.csBox .csNum{
+		font-size:13px;
+	}
+	.csBox{
+		width:auto;
+	}
+	.csFamily .familySite{
+		width:auto;
+		padding-right:30px;
+	}
+	.fBottom{
+		padding:30px 0;
+	}
+
+}

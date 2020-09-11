@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+
+.mainSlider{
+	height:690px;
+	background:url(../images/main_img.jpg) no-repeat center center;
+	margin:0 50px;
+	color:#fff;
+	text-align:center;
+	position:relative;
+}
+.mainSlider a{}
+
+.sliderText{
+	padding-top:290px;
+	font-size:20px;
+}
+.sliderText h2{
+	font-size:35px;
+	margin-bottom:15px;
+}
+.sliderText h2 span{
+	display:block;
+}
+
+.sliderBtn{
+	width:25px;
+	height:45px;
+	background:url(../images/sp_com.png) no-repeat -128px -61px;
+	text-indent:-9999px;
+	position:absolute;
+	top:50%;
+	margin-top:-12px;
+}
+.sliderBtn a{
+	display:block;
+	height:100%
+}
+
+.prevBtn{
+	left:30px;
+}
+.nextBtn{
+	background-position:-158px -61px;
+	right:30px;
+}
+
+
+/*메인컨텐츠1*/
+
+.mainCon01{
+	text-align:center;
+	padding:50px 0;
+}
+.mainCon01 ul{
+	display:inline-block;
+}
+.mainCon01 li{
+	float:left;
+	margin:0 30px;
+	font-size:14px;
+}
+.mainCon01 li a{}
+.mainCon01 li span{
+	width:64px;
+	height:52px;
+	display:block;
+	background-image:url(../images/sp_com.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-bottom:20px;
+}
+.mainCon01 li p{}
+
+.con01Icon01{
+	background-position:-3px -118px;
+}
+.con01Icon02{
+	background-position:-75px -118px;
+}
+.con01Icon03{
+	background-position:-147px -118px;
+}
+.con01Icon04{
+	background-position:-219px -118px;
+}
+.con01Icon05{
+	background-position:-292px -118px;
+}
+.con01Icon06{
+	background-position:-364px -118px;
+}
+
+/*메인컨텐츠1 호버*/
+.mainCon01 li:hover span{
+	background-position-y:-184px;
+}
+.mainCon01 li:hover p{
+	color:#2D5B79;
+}
+
+
+/*메인컨텐츠2*/
+
+.mainCon02{
+	background:#dfd9d1;
+	padding-bottom:50px;
+}
+.mainCon02 .inner{position:relative;}
+.mainCon02 .sliderBtn{z-index:2;}
+.mainCon02 .prevBtn{left:-50px;}
+.mainCon02 .nextBtn{right:-50px;}
+
+.con02Tit{
+	text-align:center;
+	padding:40px 0;
+}
+.con02Tit h2{
+	font-size:30px;
+	margin-bottom:10px;
+}
+.con02Tit p{}
+
+.con02Main{}
+.con02Left{
+	position:relative;
+	float:left;
+}
+.con02Left img{
+	display:block;
+}
+
+.con02Txt{
+	padding:30px 15px;
+	width:242px;
+	height:100%;
+	position:absolute;
+	right:0;
+	top:0;
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+	box-sizing:border-box;
+}
+.con02Txt h4{
+	font-size:13px;
+}
+.con02Txt p{
+	font-size:20px;
+	margin:15px 0;
+}
+.con02Txt .lastTxt{
+	font-size:14px;
+}
+.con02Txt span{
+	font-weight:bold;
+}
+
+.moreBtn{
+	font-size:18px;
+	border:1px solid #fff;
+	position:absolute;
+	width:210px;
+	bottom:30px;
+	text-align:center;
+	line-height:40px;
+}
+.moreBtn:hover a{
+	background:#fff;
+	color:#333;
+}
+.moreBtn a{
+	color:#fff;
+	display:block;
+}
+
+.con02Right{
+	width:400px;
+	height:430px;
+	float:left;
+	background:#fff;
+}
+
+.con02List{
+	padding:0 20px;
+}
+.con02List li{
+	padding-top:22px;
+}
+.con02List li a{}
+.con02List li img{
+	width:80px;
+	vertical-align:middle;
+}
+.con02List li p{
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:10px;
+}
+.con02List li p span{
+	display:block;
+	font-weight:bold;
+	font-size:13px;
+	margin-bottom:5px;
+}
+
+
+/*메인컨텐츠3*/
+
+.mainCon03{
+	padding-top:50px;
+}
+.mainCon03>div{
+	width:285px;
+	height:285px;
+	float:left;
+	margin-right:20px;
+	text-align:center;
+	background-size:cover;
+}
+.mainCon03>div a{
+	display:block;
+	height:100%;
+}
+.mainCon03>div p{
+	font-size:14px;
+	margin-top:10px;
+	color:#fff;
+	display:none;
+}
+/*메인컨텐츠3 호버*/
+
+.mainCon03>div:hover a{
+	background:rgba(45,91,121,0.8)
+}
+
+.mainCon03>div:hover p{
+	display:block;
+}
+.mainCon03>div:hover a h3{
+	color:#fff;
+}
+
+.mainCon03>div h3{
+	padding-top:100px;
+}
+.con03Menu01 h3,.con03Menu03 h3{
+	color:#fff;
+}
+
+.con03Menu01{
+	background:url(../images/mainrow3_img1.jpg) no-repeat center center;
+}
+.con03Menu02{
+	background:url(../images/mainrow3_img2.jpg) no-repeat center center;
+}
+.con03Menu03{
+	background:url(../images/mainrow3_img3.jpg) no-repeat center center;
+}
+.mainCon03 .con03Menu04{
+	margin-right:0;
+	background:#f2f0ed;
+}
+.con03Menu04 form{
+	padding:20px;
+}
+.mainCon03 .con03Menu04 h3{
+	padding-top:30px;
+}
+
+.con03Menu04 select,.con03Menu04 input,.con03Menu04 button{
+	border:0;
+	width:100%;
+	height:45px;
+	line-height:45px;
+	padding:0 10px;
+	box-sizing:border-box;
+	background:#fff;
+}
+.con03Menu04 select{
+	appearance:none;
+	-webkit-appearance:none;
+	background:#fff url(../images/arrow.png) no-repeat 96% center;
+	margin-bottom:10px;
+}
+.con03Menu04 button{
+	background:#2d5b79;
+	color:#fff;
+	cursor:pointer;
+	margin-top:45px;
+}
+
+/*메인컨텐츠4*/
+
+.mainCon04{
+	margin-top:20px;
+}
+
+.con04Box{
+	background:#f1efec;
+	width:590px;
+	height:198px;
+	float:left;
+	margin-right:20px;
+}
+
+.con04Box h3{
+	text-align:center;
+	color:#2d5b79;
+	font-size:20px;
+	line-height:60px;
+	border-bottom:1px solid #fff;
+	position:relative;
+}
+
+.plusBtn{
+	width:24px;
+	height:24px;
+	display:block;
+	background:#fff url(../images/sp_com.png) no-repeat -199px -63px;
+	text-indent:-9999px;
+	border-radius:50%;
+	position:absolute;
+	top:18px;
+	right:18px;
+}
+
+.con04Box ul{}
+.con04Box li{}
+.con04Box li a{}
+.con04Box li p{
+	font-size:14px;
+	width:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.con04Box li span{
+	font-size:12px;
+	color:#999;
+}
+
+.notice{}
+.noticeList{}
+.noticeList li{
+	width:50%;
+	float:left;
+	border-right:1px solid #fff;
+	box-sizing:border-box;
+	padding:20px;
+	height:137px;
+	
+}
+.noticeList li:last-child{
+	border-right:0;
+}
+.noticeList li a{}
+.noticeList li p{}
+.noticeList li span{
+	padding:10px 0;
+	display:block;
+}
+
+.news{
+	margin-right:0;
+}
+.newsList{}
+.newsList li{
+	padding:0px 20px;
+	position:relative;
+	line-height:45px;
+	border-bottom:1px solid #fff;
+	box-sizing:border-box;
+}
+.newsList li:last-child{
+	border-bottom:0;
+}
+
+.newsList li a{}
+.newsList li p{
+	width:80%;
+}
+.newsList li span{
+	position:absolute;
+	top:0;
+	right:20px;
+}
+
+/*메인컨텐츠5*/
+
+.mainCon05{
+	background:url(../images/mainrow4_bg.jpg) no-repeat center center;
+	background-size:cover;
+	padding:50px 0;
+	margin-top:50px;
+}
+.con05Menu{}
+.con05Menu li{
+	width:285px;
+	float:left;
+	margin-right:20px;
+	text-align:center;
+	position:relative;
+}
+.con05Menu li:last-child{
+	margin-right:0px;
+}
+.con05Menu li a{}
+.con05Menu li img{
+	width:100%;
+	display:block;
+}
+
+.con05Txt{
+	position:absolute;
+	width:100%;
+	bottom:30px;
+	font-size:14px;
+}
+.con05Txt h2{}

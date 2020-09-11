@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*기본css*/
+
+body{
+	min-width:1200px;
+	color:#333;
+	font-family: 'NotoSans';
+	/*
+	font-family: 'Noto Sans KR', sans-serif;
+	*/
+}
+body,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+}
+h2{
+	font-weight:700;
+}
+h3{
+	font-family: 'NanumSquare';
+	font-weight:700;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+.inner{
+	width:1200px;
+	margin:0 auto;
+}
+.cf::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.mainInner{
+	margin:0 50px;
+}

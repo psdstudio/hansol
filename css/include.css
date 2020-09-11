@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/*헤더*/
+
+#header{
+	margin:20px 50px;
+	text-align:center;
+	position:relative;
+	height:43px;
+	line-height:43px;
+	font-size:14px;
+}
+#header h1{
+	background:url(../images/sp_com.png) no-repeat -300px -5px;
+	position:absolute;
+	width:110px;
+	height:43px;
+	text-indent:-9999px;
+}
+#header h1 a{
+	display:block;
+	height:100%;
+}
+
+.gnb{
+	display:inline-block;
+}
+.gnb>li{
+	float:left;
+	margin:0 30px;
+}
+.gnb li a{}
+
+.sMenu{
+	z-index:1;
+	position:absolute;
+	background:cadetblue;
+	display:none;
+}
+.sMenu li{
+	position:relative;
+}
+.gnb li:hover .sMenu{
+	display:block;
+}
+.sMenu2{
+	background:beige;
+	position:absolute;
+	left:63px;
+	top:0px;
+	display:none;
+	width:345px;
+}
+.gnb li .sMenu li:hover .sMenu2{
+	display:block;
+}
+.sMenu2 li{
+	float:left;
+	margin:0 10px;
+}
+.sMenu2 li a{}
+
+.util{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:12px;
+	font-weight:bold;
+}
+.util li{
+	float:left;
+}
+.util li::after{
+	content:"";
+	display:inline-block;
+	width:1px;
+	height:9px;
+	background:#666;
+	margin:0 5px;
+	vertical-align:middle;
+}
+.util li:last-child::after{
+	display:none;
+}
+.util li a{
+	vertical-align:middle;
+}
+
+
+/*푸터*/
+
+footer{
+	background:#4C5459;
+	color:#fff;
+	font-size:13px;
+}
+
+.fTop{
+	background:#383F43;
+	height:40px;
+	line-height:40px;
+	padding:10px 0;
+}
+
+.fMenu{
+	float:left;
+}
+.fMenu li{
+	float:left;
+}
+.fMenu li a:hover{
+	color:#DFD9D1;
+	text-decoration:underline;
+}
+.menuBar li::after{
+	content:"";
+	display:inline-block;
+	width:1px;
+	height:8px;
+	background:#fff;
+	margin:0 5px;
+}
+.menuBar li:last-child::after{
+	display:none;
+}
+.fMenu li a{
+	color:#fff;
+}
+
+.csFamily{
+	float:right;
+}
+.csFamily>div{
+	float:left;
+	padding:0 15px;
+	height:40px;
+}
+.csBox{
+	background:#2A3033;
+	width:200px;
+}
+.csBox span{
+	font-weight:bold;
+	top:0;
+}
+.csBox a{
+	color:#fff;
+}
+.csBox .csNum{
+	font-size:22px;
+	padding-left:10px;
+	font-weight:normal;
+	right:10px;
+}
+
+.familySite{
+	background:#fff url(../images/arrow.png) no-repeat 95% center;
+	color:#333;
+	margin-left:10px;
+	width:150px;
+}
+
+.fBottom{
+	text-align:center;
+	padding:50px 0px;
+}
+.fLogo{
+	width:130px;
+	height:50px;
+	background:url(../images/sp_com.png) no-repeat -150px 0px;
+	margin:0 auto;
+	text-indent:-9999px;
+	margin-bottom:30px;
+}
+.fInfo{
+	display:inline-block;
+	margin-bottom:10px;
+}
+.fInfo li{
+	float:left;
+}
+
+.fBottom p{}
